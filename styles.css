@@ -1,0 +1,17 @@
+.heading .body-text {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20;
+    background-color:aliceblue;
+}
+
+.heading {
+    font-weight: 700;
+}
+
+.body-text {
+    font-size: medium;
+}
+

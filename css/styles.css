@@ -4,7 +4,10 @@
 
 #heading,
 .body-text,
-.list-title {
+.list-title,
+.list,
+#heading-two,
+.home {
     font-family: 'Courier New', Courier, monospace;
     color: black;
     text-align: left;
@@ -21,11 +24,23 @@
     font-size: large;
 }
 
-.list-title {
+.list-title,
+#heading-two,
+.home {
     font-size: 35px;
 }
 
-.list {
+.list,
+ {
     margin-left: 50px;
 }
 
+.image {
+    height: 500px;
+    width: auto;
+    margin-left: 30px;
+}
+
+.home {
+
+}

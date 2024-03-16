@@ -1,5 +1,13 @@
-* {
-    background-color:rgb(153, 234, 131);
+body {
+    background-color:rgb(17, 164, 193);
+}
+.card {
+    border: 4px outset white;
+    margin: 0 auto;
+    padding: 2em;
+    width: 40em;
+    height: auto;
+    background-color:rgb(167, 225, 109);
 }
 
 #heading,
@@ -11,13 +19,15 @@
     font-family: 'Courier New', Courier, monospace;
     color: black;
     text-align: left;
-    margin-left: 30px;
-    margin-right: 500px;
 }
 
 #heading {
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 700;
+}
+
+#heading-two {
+    font-weight:100;
 }
 
 .body-text {
@@ -27,19 +37,40 @@
 .list-title,
 #heading-two,
 .home {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .list {
-    margin-left: 50px;
+    padding-left: 50px;
+    font-size: 18px;
 }
 
-.image {
+.img {
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+
+/*.image {
     height: auto;
     width: 745px;
     margin-left: 30px;
 }
+*/
+a {
+    color:rgb(0, 0, 0);
+}    
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
 
-.home {
-
+.end-line {
+    text-align: center;
+    text-decoration: wavy;
 }
